@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "arena"
-version = "0.0.1.dev0"
+version = "0.0.1.dev0+dirty"
 description = "A place to putz with Python."
 authors = [{ name = "User Name", email = "user.name@nowhere.localhost" }]
 dependencies = []
