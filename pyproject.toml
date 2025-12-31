@@ -41,7 +41,10 @@ strict = true
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
 asyncio_default_fixture_loop_scope = "function"
-filterwarnings = "error"
+filterwarnings = [
+    "error",
+    "default::DeprecationWarning",  # show but do not fail for deprecated bits used by deps
+]
 testpaths = ["tests"]
 
 [tool.setuptools.packages.find]
