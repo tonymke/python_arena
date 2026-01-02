@@ -2,6 +2,7 @@
 .make/
 
 # Common editor configs
+.env
 .idea
 .idea/
 .vscode
@@ -26,7 +27,6 @@ MANIFEST
 .pytest_cache/
 
 # Virtual Environments
-.env
 .venv*/
 
 # mypy
