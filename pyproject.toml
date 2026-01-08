@@ -29,7 +29,6 @@ arena = "arena.__main__:main"
 line-length = 120
 
 [tool.flake8]
-exclude = ".venv"
 extend-ignore = "E203,E501,E701"
 extend-select = "B950"
 max-line-length = 120
